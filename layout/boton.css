@@ -17,6 +17,10 @@
     margin-top: 2.5rem;
     text-align: center;
     align-self: flex-end;
+    border: none;
+}
+.btn-green:hover {
+    cursor: pointer;
 }
 .alinear-derecha {
     
