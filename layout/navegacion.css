@@ -38,7 +38,10 @@
    
 }
  .menu-telefono img {
-        width: 5rem;
+    max-height: 5rem;
+        height: 5rem;
+        width: auto;
+        
     }
 .mostrar {
     display: flex;
