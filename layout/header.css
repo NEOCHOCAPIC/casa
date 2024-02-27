@@ -1,0 +1,39 @@
+
+/*
+$negro: #000000;
+$amarillo: #E08709;;
+$verde: #71B100;
+$blanco: #FFFFFF;
+$gris: #e1e1e1;
+$grisOscuro: #333333;
+$separacion: 5rem;
+*/
+
+.inicio {
+    background-image: url(../img/header.jpg);
+    min-height: 70rem;
+}
+
+.header {
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+ 
+    background-size: cover;
+    background-position: center center;
+}
+.contenido-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.auxiliar {
+    min-height: 70rem;
+}
+.contenido-header h1 {
+    text-align: left;
+    color: white;
+    font-weight: 700;
+    line-height: 2;/*para que el texto no se vea tan pegado*/
+    
+}

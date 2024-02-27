@@ -1,0 +1,26 @@
+.barra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+@media  (max-width: 768px) {
+    .barra {
+        flex-direction: column;
+        
+    }
+    .navegacion a {
+        display: block;
+        text-align: center;
+    }
+}
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+.navegacion a:last-of-type {
+    margin-right: 0;
+}

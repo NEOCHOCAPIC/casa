@@ -1,0 +1,16 @@
+.icono img {
+    height: 10rem;
+}
+.icono h3 {
+    text-transform: uppercase;
+}
+.icono{
+    text-align: center;
+}
+@media  (min-width: 768px) {
+    .iconos-nosotros {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
