@@ -1,8 +1,40 @@
+.derecha {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dark-mode{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 10rem;
+    filter: invert(100%);
+}
+.dark-mode:hover {
+    cursor: pointer;
+}
+
+@media  (min-width: 768px) {
+    .derecha {
+     align-items: flex-end;
+     
+    
+    }
+    .dark-mode{
+        width: 3rem;
+        margin-top: 0;
+      
+    }
+}
+
+
+
+
 .barra {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding-top: 3rem;
+    align-items: flex-end;
 }
 
 @media  (max-width: 768px) {
@@ -18,6 +50,12 @@
     .navegacion {
         display: none;
     }
+    .navegacion-inferior {
+        display: flex;
+        flex-direction: column;
+     
+    }
+    
 }
 .navegacion a{
     color: white;
@@ -27,7 +65,7 @@
     align-items: center;
 }
 .navegacion a:last-of-type {
-    margin-right: 0;
+    margin-right: 2rem;
 }
 
 /*menu hamburguesa*/
@@ -51,4 +89,44 @@
     .mostrar {
         flex-direction: row;
     }
+    
+}
+
+/*Modo oscuro*/
+.dark-mode1 {
+    background-color: rgba(0, 0, 0, 0.819);
+}
+.dark-mode1 p{
+    color: white;
+}
+.dark-mode1 a {
+    color: #e1e1e1;
+}
+.dark-mode1 h1 {
+    color: #e1e1e1;
+}
+.dark-mode1 h2 {
+    color: #e1e1e1;
+}
+.dark-mode1 h3 {
+    color: #e1e1e1;
+}
+.dark-mode1 h4 {
+    color: #e1e1e1;
+}
+.dark-mode1 .anuncio {
+    background-color: #333333;
+    border: 1px solid #333333;
+}
+.dark-mode1 .anuncio .precio {
+    color: #71B100;
+}
+.dark-mode1 .anuncio .icono {
+    filter: invert(100%);
+}
+.dark-mode1 .resumen-propiedad .icono{
+    filter: invert(100%);
+}
+.dark-mode1 .resumen-propiedad .precio {
+    color: #71B100;
 }

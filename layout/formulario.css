@@ -52,3 +52,25 @@
   margin: 0;
   width: auto;
 }
+.dark-mode1 .formulario legend {
+    color: #e1e1e1;
+}
+.dark-mode1 .formulario p {
+    color: #e1e1e1;
+}
+.dark-mode1 .formulario label {
+    color: #e1e1e1;
+}
+.dark-mode1 .formulario input:not([type="submit"]) {
+    background-color: #333333;
+    color: white;
+   
+}
+.dark-mode1 .formulario textarea {
+    background-color: #333333;
+    color: white;
+}
+.dark-mode1 .formulario select {
+    background-color: #333333;
+    color: white;
+}
